@@ -1,0 +1,15 @@
+resolver: nightly-2016-05-27
+
+packages:
+- .
+- location:
+   git: https://github.com/meditans/bookkeeper
+   commit: fe35c58b3c4da1783abbaf703eedb41eb75cb404
+  extra-dep: true
+
+extra-deps:
+- 'type-level-sets-0.7'
+
+flags: {}
+
+extra-package-dbs: []
